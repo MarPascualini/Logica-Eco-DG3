@@ -2,6 +2,90 @@
 /*
 * Trunk version 2.0.1
 */
+
+/* Inicio prueba CARDS*/
+.profesionales-eco {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profesionales-eco h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profesionales-eco .eco {
+    color: #007bff;
+}
+
+.profesionales-eco p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #e8dff1;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: left;
+}
+
+.card-image img {
+    width: 100%;
+    border-bottom: 5px solid #ff8a00;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-content .profession {
+    font-size: 1.2em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.card-content .speciality {
+    background-color: #ff8a00;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card-content .description {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.info-button {
+    background-color: #fffc66;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-button:hover {
+    background-color: #fffc99;
+}  /* FIN prueba CARDS*/
+
 /*
 * Contexts
 */
@@ -737,6 +821,7 @@ a[href*='tel'], a[href*='mailto'] {
 .pricing-box {
 	padding: 60px 55px 70px 55px;
 	text-align: center;
+	border-radius: 30px;
 }
 
 .pricing-box hr {
@@ -773,7 +858,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .pricing-box-label {
-	background-color: #48484c;
+	background-color: #98bd5d;
 	width: 116px;
 	margin: 10px auto 0  auto;
 	border-radius: 20px;
@@ -808,6 +893,7 @@ a[href*='tel'], a[href*='mailto'] {
 	height: 100%;
 	opacity: 0;
 	border: 2px solid rgba(255, 255, 255, 0.4);
+	border-radius: 30px;
 	transition: all ease .35s;
 	top: 50%;
 	left: 50%;
@@ -5250,7 +5336,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gray-dark {
-	background-color: #404044;
+	background-color: #FF4F14;
 }
 
 .bg-gray-dark:not([style*="background-"]) + .bg-gray-dark:not([style*="background-"]) {
@@ -5258,7 +5344,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gray-primary {
-	background-color: #505cfd;
+	background-color: #E3A1F0;
 }
 
 .bg-gray-primary:not([style*="background-"]) + .bg-gray-primary:not([style*="background-"]) {
