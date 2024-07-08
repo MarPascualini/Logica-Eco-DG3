@@ -3,88 +3,6 @@
 * Trunk version 2.0.1
 */
 
-/* Inicio prueba CARDS*/
-.profesionales-eco {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.profesionales-eco h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.profesionales-eco .eco {
-    color: #007bff;
-}
-
-.profesionales-eco p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.card {
-    background-color: #e8dff1;
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    text-align: left;
-}
-
-.card-image img {
-    width: 100%;
-    border-bottom: 5px solid #ff8a00;
-}
-
-.card-content {
-    padding: 20px;
-}
-
-.card-content h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.card-content .profession {
-    font-size: 1.2em;
-    color: #888;
-    margin-bottom: 10px;
-}
-
-.card-content .speciality {
-    background-color: #ff8a00;
-    color: #fff;
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.card-content .description {
-    font-size: 0.9em;
-    margin-bottom: 20px;
-}
-
-.info-button {
-    background-color: #fffc66;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.info-button:hover {
-    background-color: #fffc99;
-}  /* FIN prueba CARDS*/
 
 /*
 * Contexts
@@ -191,6 +109,10 @@ html p a:hover {
 /*
 * Typography
 */
+.titulo-hero {
+	color: ffffff;
+}
+
 body {
 	font-family: "Sen","Montserrat", serif;
 	font-size: 14px;
@@ -411,6 +333,14 @@ p [style*='max-width'] {
 		display: block;
 	}
 }
+
+.styled-h1 {
+	font-size: 3em; /* Ajusta el tamaño de fuente según sea necesario */
+	font-weight: bold; /* Haz el texto más grueso */
+	color: #E6FE74; /* Color amarillo similar al de la imagen */
+	text-align:left; /* Centra el texto */
+	line-height: 1.2; /* Ajusta el espaciado entre líneas */
+  }
 
 /*
 * Brand
@@ -818,8 +748,24 @@ a[href*='tel'], a[href*='mailto'] {
 	box-shadow: 0px 0px 31px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* PRUEBA DE LA CARD*/
+.pricing-box-image {
+	width: 50%; /* Ajusta el ancho según tus necesidades */
+	height: auto; /* Mantiene la proporción de la imagen */
+	display: block;
+	margin: 0 auto 10px; /* Centra la imagen horizontalmente y añade un margen inferior */
+  }
+
+  /* PRUEBA DE LA CARD PROFES*/
+  .card-img-top {
+	width: 50%; /* Ajusta el tamaño de la imagen al ancho del contenedor */
+	height: auto; /* Mantiene la proporción de la imagen */
+	display: block;
+	margin: 0 auto 10px; /* Centra la imagen horizontalmente y añade un margen inferior */
+  }
+
 .pricing-box {
-	padding: 60px 55px 70px 55px;
+	padding: 30px 55px 40px 55px;
 	text-align: center;
 	border-radius: 30px;
 }
@@ -843,7 +789,7 @@ a[href*='tel'], a[href*='mailto'] {
 	align-items: flex-start;
 	font-family: "Poppins", sans-serif;
 	font-weight: 700;
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .pricing-box-symbol {
@@ -4982,6 +4928,79 @@ h3 + img {
 /*
 * Sections
 */
+/* Prueba section about */
+.section-about {
+	position: relative;
+	background-image: url('/images/fondo\ -\ Acerca\ de\ nosotros.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
+  /* Prueba section impacto */
+.section-impacto {
+	position: relative;
+	background-image: url('/images/fondo\ -\ impacto\ positivo.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  
+  /* Prueba section datos */
+.section-datos {
+	position: relative;
+	background-image: url('/images/fondo\ -\ Datos.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
+/* Prueba section talleres */
+.section-talleres {
+	position: relative;
+	background-image: url('/images/fondo\ -\ Talleres.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  
+
+  /* Prueba section taller destacado */
+.section-destacado {
+	position: relative;
+	background-image: url('/images/fondo\ -\ Curso\ destacado.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
+  /* Prueba section reseña*/
+.section-reseña {
+	position: relative;
+	background-image: url('/images/fondo\ -\ reseña.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  
+  /* Prueba section profes */
+.section-profes {
+	position: relative;
+	background-image: url('/images/fondo\ -\ Profes.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
+  /* Prueba section FQ */
+.section-FQ {
+	position: relative;
+	background-image: url('/images/fondo\ -\ faqs.png');
+	background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la sección */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
 .section-xs {
 	padding: 25px 0;
 }
@@ -5904,7 +5923,8 @@ html.tablet .ui-to-top {
 
 .rd-navbar {
 	display: none;
-	background: transparent;
+	/* background: transparent; */
+	background: #FCFAEC;
 }
 
 .rd-navbar-toggle {
@@ -5914,7 +5934,7 @@ html.tablet .ui-to-top {
 	height: 48px;
 	line-height: 48px;
 	cursor: pointer;
-	color: #cccccc;
+	color: #FCFAEC;
 	background-color: transparent;
 	border: none;
 	display: none;
@@ -5942,7 +5962,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before, .rd-navbar-toggle span {
 	width: 24px;
 	height: 4px;
-	background-color: #cccccc;
+	background-color: #FCFAEC;
 	backface-visibility: hidden;
 	border-radius: 0;
 }
@@ -6053,7 +6073,7 @@ html.tablet .ui-to-top {
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
-	color: #cccccc;
+	color: #FCFAEC;
 	transition: .33s;
 	display: flex;
 	flex-direction: column;
@@ -6147,7 +6167,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item.active .rd-nav-link {
-	color: #ffffff;
+	color: #2C4DE5;
 	background: transparent;
 }
 
@@ -6159,7 +6179,7 @@ html.tablet .ui-to-top {
 	width: 100%;
 	display: block;
 	height: 1px;
-	background-color: #ffffff;
+	background-color: #FF4F14;
 }
 
 .rd-navbar-static .rd-nav-item.active > .rd-navbar-submenu-toggle {
@@ -6204,7 +6224,7 @@ html.tablet .ui-to-top {
 	font-family: "Poppins", sans-serif;
 	display: inline-block;
 	padding-bottom: 10px;
-	color: #ffffff;
+	color: #2C4DE5;
 	font-size: 12px;
 	line-height: 1.2;
 	transition: .25s;
@@ -6223,13 +6243,14 @@ html.tablet .ui-to-top {
 	transition: all ease .35s;
 }
 
+/* cuando paso el cursos por encima del nav */
 @media (min-width: 1200px) {
 	.rd-navbar-static .rd-nav-link:hover {
-		color: #ffffff;
+		color: #FF4F14;
 	}
 	.rd-navbar-static .rd-nav-link:hover:before {
 		width: 100%;
-		background-color: #ffffff;
+		background-color: #FF4F14;
 		transition: all ease .35s;
 	}
 }
@@ -6388,7 +6409,6 @@ html.tablet .ui-to-top {
 .rd-navbar-static * + .rd-megamenu-list {
 	margin-top: 10px;
 }
-
 .rd-navbar-static .rd-navbar-submenu.focus > .rd-menu, .rd-navbar-static .rd-navbar-submenu.opened > .rd-menu {
 	opacity: 1;
 	visibility: visible;
